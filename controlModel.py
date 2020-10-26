@@ -40,7 +40,7 @@ def act():
     print('actuated')
 
 while True:
-    time.sleep(time_to_actuate)
+    time.sleep(abs(time_to_actuate))
     act()
     break
 
